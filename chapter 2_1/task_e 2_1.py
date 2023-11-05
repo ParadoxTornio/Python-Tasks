@@ -1,0 +1,5 @@
+price = int(input())
+weight = float(input())
+cost = round(price * weight)
+banknote = int(input())
+print(banknote - cost)

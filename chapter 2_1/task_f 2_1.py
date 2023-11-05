@@ -1,0 +1,11 @@
+name = str(input())
+price = int(input())
+weight = float(input())
+cost = round(price * weight)
+usermoney = int(input())
+change = usermoney - cost
+print('Чек')
+print(f'{name} - {round(weight)}кг - {price}руб/кг')
+print(f'Итого: {cost}руб')
+print(f'Внесено: {usermoney}руб')
+print(f'Сдача: {change}руб')
