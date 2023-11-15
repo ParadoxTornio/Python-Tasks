@@ -8,4 +8,4 @@ else:
     a_minus_b = b - a
 a_minus_b /= c
 a_minus_b = round(a_minus_b, 2)
-print(a_minus_b)
+print("{:.2f}".format(a_minus_b))
