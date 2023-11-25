@@ -1,0 +1,6 @@
+password = input()
+sum_1 = int(password[1]) + int(password[2])
+sum_2 = int(password[0]) + int(password[1])
+new_password = str(max(sum_1, sum_2))
+new_password += str(min(sum_1, sum_2))
+print(int(new_password))
